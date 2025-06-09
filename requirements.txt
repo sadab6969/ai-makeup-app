@@ -5,3 +5,4 @@ mediapipe
 matplotlib
 deepface
 Pillow
+tf-keras

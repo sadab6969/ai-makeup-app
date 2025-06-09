@@ -104,4 +104,4 @@ gr.Interface(
     outputs=[gr.Image(label="Makeup Applied"), gr.Textbox(label="Suggestions")],
     title="AI Makeup Recommender",
     description="Upload your photo to receive AI-based makeup suggestions and virtual try-on."
-).launch()
+).launch(server_name="0.0.0.0", server_port=10000)
